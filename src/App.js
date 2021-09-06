@@ -2,8 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 import {Component} from "react";
 import firebase from "firebase/compat";
+import data from './data.json';
 
 class App extends Component{
+
+  constructor(props) {
+    super(props);
+    this.state = {data};
+  }
+
   componentWillUnmount() {
     firebase.initializeApp({
       apiKey: "AIzaSyBeRdhTM681mPi5zu-3I2gF_3VnXgcaV8s",
