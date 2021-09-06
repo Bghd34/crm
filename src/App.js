@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import {Component} from "react";
-import firebase from "firebase";
+import firebase from "firebase/compat";
 
 class App extends Component{
   componentWillUnmount() {
