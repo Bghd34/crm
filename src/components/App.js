@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import {Component} from "react";
 import firebase from "firebase/compat";
-import data from './data.json';
+import data from '../data.json';
 
 class App extends Component{
 
@@ -26,7 +25,6 @@ class App extends Component{
     return (
         <div className="App">
           <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
             <p>
               Edit <code>src/App.js</code> and save to reload.
             </p>
