@@ -2,7 +2,7 @@ import React from "react";
 
 const Single = (props) => {
     return(
-        <div className="col s12 l6">
+        <li className="col s12 l6">
             <div className="card">
 
                 <div className="card-image">
@@ -11,11 +11,16 @@ const Single = (props) => {
                 </div>
 
                 <div className="card-content">
-
+                    <span className="card-title">{props.item.email}</span>
+                    <div className="row">
+                        <div className="col l6 center">
+                            <blockquote><h5>{props.item.notes}</h5></blockquote>
+                        </div>
+                    </div>
                 </div>
 
             </div>
-        </div>
+        </li>
     );
 }
 
