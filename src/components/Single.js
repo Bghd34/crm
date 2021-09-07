@@ -18,6 +18,9 @@ const Single = (props) => {
                         </div>
                     </div>
                 </div>
+                <div className="card-action">
+                    <button className="btn waves-effect waves-light red accent-4">Supprimer</button>
+                </div>
 
             </div>
         </li>

@@ -29,11 +29,12 @@ class Form extends Component {
 
                     <div className="row">
                         <div className="input-field col s8">
-                            <input id="email" type="text" className="validate" />
-                            <label htmlFor="email">Email</label>
+                            <input id="notes" type="text" className="validate" />
+                            <label htmlFor="notes">Notes</label>
                         </div>
-                        <div className="input-field col s6">
-
+                        <div className="input-field col s4">
+                            <button className="btn waves-effect waves-light"
+                                    type="submit" name="action">Ajouter</button>
                         </div>
                     </div>
                 </form>
